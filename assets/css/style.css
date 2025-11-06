@@ -12833,7 +12833,7 @@ video.video-area {
 
 /* client area page about style  */
 .client-area-page-about {
-  background-color: var(--bg);
+  background-color: #111111;
   margin-bottom: -1px;
 }
 .client-area-page-about .section-header {
@@ -12870,8 +12870,8 @@ video.video-area {
   transition-timing-function: linear !important;
 }
 .client-area-page-about .client-box {
-  border: 1px solid rgba(252, 247, 243, 0.1);
-  border-radius: 70px;
+  /* border: 1px solid rgba(252, 247, 243, 0.1);
+  border-radius: 70px; */
   width: 215px;
   height: 140px;
   padding: 0 20px;
@@ -18531,3 +18531,9 @@ video.video-area {
 .footer-area-inner-page .copyright-text .text a:hover::before {
   width: 100%;
 }/*# sourceMappingURL=style.css.map */
+
+.breadcrumb img {   
+   height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
