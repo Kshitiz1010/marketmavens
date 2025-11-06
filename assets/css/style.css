@@ -5823,6 +5823,9 @@ video.video-area {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+.clients-wrapper-box{
+  background: #ffffff !important;
+}
 @media only screen and (max-width: 1919px) {
   .client-area-4 .clients-wrapper-box {
     padding-top: 35px;
